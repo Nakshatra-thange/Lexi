@@ -1,0 +1,62 @@
+MASTER SERVICES AGREEMENT
+
+This Master Services Agreement ("Agreement") is entered into by and between
+Vendor Solutions Inc. ("Vendor") and Customer Corp ("Customer").
+
+1. SERVICES
+Vendor shall provide software development and consulting services as
+described in each Statement of Work executed under this Agreement.
+
+2. FEES AND PAYMENT
+Customer shall pay Vendor's fees within thirty (30) days of invoice.
+Late payments accrue interest at 1.5% per month.
+
+3. LIMITATION OF LIABILITY
+IN NO EVENT SHALL VENDOR'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED
+THE AMOUNT OF FEES PAID BY CUSTOMER IN THE ONE (1) MONTH PRECEDING THE
+CLAIM. VENDOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, OR
+CONSEQUENTIAL DAMAGES UNDER ANY CIRCUMSTANCES.
+
+4. INDEMNIFICATION
+Customer shall indemnify, defend, and hold harmless Vendor from and
+against any and all third-party claims, damages, or expenses arising
+out of Customer's use of the deliverables. Vendor makes no
+indemnification obligations to Customer under this Agreement.
+
+5. TERM AND TERMINATION
+This Agreement shall remain in effect for an initial term of three (3)
+years. Either party may terminate this Agreement only for material
+breach that remains uncured for sixty (60) days following written notice.
+
+6. INTELLECTUAL PROPERTY
+All deliverables, work product, source code, and other materials
+developed by Vendor in connection with this Agreement shall remain the
+sole and exclusive property of Vendor. Customer is granted a
+non-exclusive, non-transferable license to use the deliverables solely
+for Customer's internal business purposes during the term of this
+Agreement.
+
+7. CONFIDENTIALITY
+Each party agrees to keep the other party's Confidential Information
+confidential and not disclose it to third parties without prior written
+consent. This obligation shall terminate upon expiration or termination
+of this Agreement.
+
+8. GOVERNING LAW
+This Agreement shall be governed by the laws of the Cayman Islands,
+without regard to conflict of law principles. Any disputes shall be
+resolved exclusively in the courts of the Cayman Islands.
+
+9. RENEWAL
+This Agreement shall automatically renew for successive one (1) year
+terms unless Customer provides written notice of non-renewal at least
+five (5) business days prior to the end of the then-current term.
+
+10. WARRANTY
+Vendor provides the deliverables "as is" with no warranties of any
+kind, express or implied, including but not limited to warranties of
+merchantability or fitness for a particular purpose.
+
+11. MISCELLANEOUS
+This Agreement constitutes the entire agreement between the parties.
+Any amendments must be in writing and signed by both parties.
