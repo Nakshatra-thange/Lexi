@@ -1,0 +1,68 @@
+[
+  {
+    "clause_number": "1",
+    "category": "other",
+    "start_char": 159,
+    "end_char": 281
+  },
+  {
+    "clause_number": "2",
+    "category": "payment",
+    "start_char": 283,
+    "end_char": 384
+  },
+  {
+    "clause_number": "3",
+    "category": "liability",
+    "start_char": 386,
+    "end_char": 595
+  },
+  {
+    "clause_number": "4",
+    "category": "indemnification",
+    "start_char": 597,
+    "end_char": 786
+  },
+  {
+    "clause_number": "5",
+    "category": "termination",
+    "start_char": 788,
+    "end_char": 928
+  },
+  {
+    "clause_number": "6",
+    "category": "ip_assignment",
+    "start_char": 930,
+    "end_char": 1147
+  },
+  {
+    "clause_number": "7",
+    "category": "confidentiality",
+    "start_char": 1149,
+    "end_char": 1298
+  },
+  {
+    "clause_number": "8",
+    "category": "governing_law",
+    "start_char": 1300,
+    "end_char": 1428
+  },
+  {
+    "clause_number": "9",
+    "category": "auto_renewal",
+    "start_char": 1430,
+    "end_char": 1565
+  },
+  {
+    "clause_number": "10",
+    "category": "warranty",
+    "start_char": 1567,
+    "end_char": 1706
+  },
+  {
+    "clause_number": "11",
+    "category": "other",
+    "start_char": 1708,
+    "end_char": 1804
+  }
+]

@@ -1,0 +1,127 @@
+name: "Standard Services Agreement Playbook"
+description: >
+  Negotiation position for a mid-size company acting as the customer
+  in a B2B services agreement. Used to flag vendor paper that deviates
+  from acceptable risk tolerance.
+
+rules:
+  - id: LIAB-01
+    category: liability
+    title: "Liability cap"
+    requirement: >
+      Vendor's total liability must be capped at no more than 12 months
+      of fees paid under the agreement, except for carve-outs (IP infringement,
+      confidentiality breach, gross negligence).
+    risk_if_violated: high
+    rationale: >
+      Uncapped or excessively low liability exposes the company to
+      disproportionate financial risk relative to contract value.
+    fallback_language: >
+      "Each party's total liability arising out of or related to this
+      Agreement shall not exceed the total fees paid or payable in the
+      twelve (12) months preceding the claim, except for claims arising
+      from a breach of confidentiality, IP infringement, or gross negligence."
+    keywords: ["liability", "limitation of liability", "cap", "aggregate liability"]
+
+  - id: INDEM-01
+    category: indemnification
+    title: "Mutual indemnification"
+    requirement: >
+      Indemnification obligations must be mutual — both parties indemnify
+      each other for third-party claims arising from their own breach,
+      negligence, or IP infringement. One-sided indemnification favoring
+      only the vendor is not acceptable.
+    risk_if_violated: high
+    rationale: >
+      One-sided indemnification leaves the company exposed for the
+      vendor's own negligence or IP infringement.
+    fallback_language: >
+      "Each party shall indemnify, defend, and hold harmless the other
+      party from third-party claims arising out of the indemnifying
+      party's breach of this Agreement, negligence, or infringement of
+      intellectual property rights."
+    keywords: ["indemnify", "indemnification", "hold harmless", "defend"]
+
+  - id: TERM-01
+    category: termination
+    title: "Termination for convenience"
+    requirement: >
+      Customer must have the right to terminate for convenience with
+      no more than 30-60 days' written notice, without cause.
+    risk_if_violated: medium
+    rationale: >
+      Without a termination-for-convenience right, the company is
+      locked into the full term even if the relationship stops working.
+    fallback_language: >
+      "Either party may terminate this Agreement for convenience upon
+      thirty (30) days' prior written notice to the other party."
+    keywords: ["termination", "terminate for convenience", "notice period"]
+
+  - id: IP-01
+    category: ip_assignment
+    title: "Work product IP assignment"
+    requirement: >
+      All work product, deliverables, and custom developments created
+      for the customer must be assigned to the customer upon payment,
+      not merely licensed.
+    risk_if_violated: critical
+    rationale: >
+      A license instead of an assignment means the vendor retains
+      ownership of custom work the company paid to create, creating
+      long-term dependency and IP risk.
+    fallback_language: >
+      "All work product and deliverables created by Vendor specifically
+      for Customer under this Agreement shall be deemed 'work made for
+      hire' and, to the extent not so deemed, are hereby assigned to
+      Customer upon full payment."
+    keywords: ["work product", "intellectual property", "assignment", "work made for hire", "license"]
+
+  - id: CONF-01
+    category: confidentiality
+    title: "Confidentiality survival period"
+    requirement: >
+      Confidentiality obligations must survive termination for at least
+      3 years, or indefinitely for trade secrets.
+    risk_if_violated: medium
+    rationale: >
+      A short or missing survival period lets the counterparty disclose
+      sensitive information shortly after the relationship ends.
+    fallback_language: >
+      "The confidentiality obligations in this Section shall survive
+      termination of this Agreement for a period of three (3) years,
+      except with respect to trade secrets, which shall remain
+      confidential for as long as they qualify as trade secrets under
+      applicable law."
+    keywords: ["confidentiality", "survive", "survival", "trade secret"]
+
+  - id: GOV-01
+    category: governing_law
+    title: "Governing law and venue"
+    requirement: >
+      Governing law and venue should be a neutral or customer-favorable
+      jurisdiction, not a jurisdiction chosen solely for vendor convenience
+      with no connection to either party.
+    risk_if_violated: low
+    rationale: >
+      An unfavorable venue increases the cost and difficulty of
+      enforcing rights under the agreement.
+    fallback_language: null
+    keywords: ["governing law", "venue", "jurisdiction", "dispute resolution"]
+
+  - id: RENEW-01
+    category: auto_renewal
+    title: "Auto-renewal notice period"
+    requirement: >
+      If the agreement auto-renews, customer must receive written notice
+      at least 30 days before the renewal deadline, with a clear opt-out
+      mechanism.
+    risk_if_violated: medium
+    rationale: >
+      Silent auto-renewal clauses with short opt-out windows are a
+      common vendor tactic to lock customers into unwanted renewal terms.
+    fallback_language: >
+      "This Agreement shall automatically renew for successive one (1)
+      year terms unless either party provides written notice of
+      non-renewal at least thirty (30) days prior to the end of the
+      then-current term."
+    keywords: ["auto-renew", "automatic renewal", "renewal term", "opt-out"]
