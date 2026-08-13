@@ -1,0 +1,55 @@
+contract_id: sample_msa
+playbook_name: "Standard Services Agreement Playbook"
+notes: >
+  Hand-labeled by reviewing sample_msa.txt against each playbook rule
+  directly. This is the reference the agent's output is scored against.
+
+labels:
+  - rule_id: LIAB-01
+    status: deviation
+    reasoning: >
+      Section 3 caps liability at 1 month of fees, not the required
+      12 months, and excludes IP infringement / confidentiality carve-outs
+      entirely.
+
+  - rule_id: INDEM-01
+    status: deviation
+    reasoning: >
+      Section 4 indemnification is one-sided in the wrong direction —
+      Customer indemnifies Vendor, and the clause explicitly states
+      Vendor has NO indemnification obligations to Customer.
+
+  - rule_id: TERM-01
+    status: deviation
+    reasoning: >
+      Section 5 only allows termination for uncured material breach
+      after 60 days notice. There is no termination-for-convenience
+      right at all.
+
+  - rule_id: IP-01
+    status: deviation
+    reasoning: >
+      Section 6 explicitly retains all IP as Vendor's "sole and
+      exclusive property" and grants Customer only a non-exclusive
+      license. This is the opposite of assignment.
+
+  - rule_id: CONF-01
+    status: deviation
+    reasoning: >
+      Section 7 confidentiality obligation "terminate[s] upon
+      expiration or termination of this Agreement" — there is no
+      survival period at all, let alone the required 3 years.
+
+  - rule_id: GOV-01
+    status: deviation
+    reasoning: >
+      Section 8 sets governing law/venue as the Cayman Islands, which
+      has no apparent connection to either named party and is a classic
+      vendor-favorable neutral-on-paper-but-inconvenient-in-practice
+      jurisdiction choice.
+
+  - rule_id: RENEW-01
+    status: deviation
+    reasoning: >
+      Section 9 auto-renews with only 5 business days' opt-out notice,
+      far short of the required 30 days.
